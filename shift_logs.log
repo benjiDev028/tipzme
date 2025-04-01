@@ -1,0 +1,47 @@
+2025-04-01 01:47:32,610 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:47:32,613 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:48:05,401 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:48:36,890 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:48:36,920 - ERROR - Error creating shift: Instance <Shift at 0x28d23136460> has a NULL identity key.  If this is an auto-generated value, check that the database table allows generation of new primary key values, and that the mapped Column object is configured to expect these generated values.  Ensure also that this flush() is not occurring at an inappropriate time, such as within a load() event.
+2025-04-01 01:51:15,951 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:51:16,044 - INFO - Shift created with ID: 48e81b91-9931-4676-9b49-227f143d0039
+2025-04-01 01:53:01,177 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 8, 0) start_time=datetime.datetime(2025, 4, 1, 8, 0) end_time=datetime.datetime(2025, 4, 1, 12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 01:53:01,198 - INFO - Shift created with ID: 5fc5ff5c-da41-46be-ae3e-4ed0afda22de
+2025-04-01 02:02:14,604 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.datetime(2025, 4, 1, 0, 0) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:02:14,622 - ERROR - Error creating shift: (psycopg2.errors.DatatypeMismatch) column "start_time" is of type timestamp without time zone but expression is of type time without time zone
+LINE 1: ...hift du matin', '2025-04-01T00:00:00'::timestamp, '08:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO shifts (id, creator_id, name_shift, date, start_time, end_time, status, created_at, updated_at) VALUES (%(id)s::UUID, %(creator_id)s::UUID, %(name_shift)s, %(date)s, %(start_time)s, %(end_time)s, %(status)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('5a42a66e-9809-46f7-accd-8158e9a8422f'), 'creator_id': UUID('550e8400-e29b-41d4-a716-446655440000'), 'name_shift': 'Shift du matin', 'date': datetime.datetime(2025, 4, 1, 0, 0), 'start_time': datetime.time(8, 0), 'end_time': datetime.time(12, 0), 'status': 'active', 'created_at': datetime.datetime(2025, 4, 1, 2, 2, 14, 605956), 'updated_at': datetime.datetime(2025, 4, 1, 2, 2, 14, 605956)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 02:04:10,363 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:04:10,376 - ERROR - Error creating shift: (psycopg2.errors.DatatypeMismatch) column "start_time" is of type timestamp without time zone but expression is of type time without time zone
+LINE 1: ...uuid::UUID, 'Shift du matin', '2025-04-01'::date, '08:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO shifts (id, creator_id, name_shift, date, start_time, end_time, status, created_at, updated_at) VALUES (%(id)s::UUID, %(creator_id)s::UUID, %(name_shift)s, %(date)s, %(start_time)s, %(end_time)s, %(status)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('bed5474a-3257-4bba-a825-3bb9be260d1c'), 'creator_id': UUID('550e8400-e29b-41d4-a716-446655440000'), 'name_shift': 'Shift du matin', 'date': datetime.date(2025, 4, 1), 'start_time': datetime.time(8, 0), 'end_time': datetime.time(12, 0), 'status': 'active', 'created_at': datetime.datetime(2025, 4, 1, 2, 4, 10, 364670), 'updated_at': datetime.datetime(2025, 4, 1, 2, 4, 10, 364670)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 02:07:16,037 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:07:16,046 - ERROR - Error creating shift: (psycopg2.errors.DatatypeMismatch) column "start_time" is of type timestamp without time zone but expression is of type time without time zone
+LINE 1: ...uuid::UUID, 'Shift du matin', '2025-04-01'::date, '08:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO shifts (id, creator_id, name_shift, date, start_time, end_time, status, created_at, updated_at) VALUES (%(id)s::UUID, %(creator_id)s::UUID, %(name_shift)s, %(date)s, %(start_time)s, %(end_time)s, %(status)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('cf918f0c-916b-455f-8cdc-71cfb3418586'), 'creator_id': UUID('550e8400-e29b-41d4-a716-446655440000'), 'name_shift': 'Shift du matin', 'date': datetime.date(2025, 4, 1), 'start_time': datetime.time(8, 0), 'end_time': datetime.time(12, 0), 'status': 'active', 'created_at': datetime.datetime(2025, 4, 1, 2, 7, 16, 39735), 'updated_at': datetime.datetime(2025, 4, 1, 2, 7, 16, 39735)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 02:09:08,437 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:09:08,447 - ERROR - Error creating shift: (psycopg2.errors.DatatypeMismatch) column "start_time" is of type timestamp without time zone but expression is of type time without time zone
+LINE 1: ...uuid::UUID, 'Shift du matin', '2025-04-01'::date, '08:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO shifts (id, creator_id, name_shift, date, start_time, end_time, status, created_at, updated_at) VALUES (%(id)s::UUID, %(creator_id)s::UUID, %(name_shift)s, %(date)s, %(start_time)s, %(end_time)s, %(status)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('2296f921-d63a-42c3-ba31-1360448fc0ca'), 'creator_id': UUID('550e8400-e29b-41d4-a716-446655440000'), 'name_shift': 'Shift du matin', 'date': datetime.date(2025, 4, 1), 'start_time': datetime.time(8, 0), 'end_time': datetime.time(12, 0), 'status': 'active', 'created_at': datetime.datetime(2025, 4, 1, 2, 9, 8, 438865), 'updated_at': datetime.datetime(2025, 4, 1, 2, 9, 8, 438865)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 02:10:49,035 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:10:49,086 - INFO - Shift created with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
