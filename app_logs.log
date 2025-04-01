@@ -1,0 +1,660 @@
+2025-03-02 16:27:29,737 - ERROR - Un utilisateur avec l'email johndoe1093@example.com existe déjà.
+2025-03-02 16:27:35,055 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 16:27:35,056 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 16:27:35,527 - INFO - Nouvel utilisateur créé avec succès : johndoe10903@example.com
+2025-03-02 16:27:35,550 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe10903@example.com
+2025-03-02 16:41:12,378 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-46' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000013E3ECEAB80>()]>>
+2025-03-02 16:41:12,380 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 17:00:32,527 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:01:13,153 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:03:43,047 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:04:07,220 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:05:10,454 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: bnji@.com
+2025-03-02 17:05:31,720 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: bnji@.com
+2025-03-02 17:05:34,737 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: bnji@.com
+2025-03-02 17:08:00,898 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: bnji@.com
+2025-03-02 17:08:00,918 - ERROR - Utilisateur introuvable avec l'email bnji@.com
+2025-03-02 17:08:00,918 - ERROR - Erreur lors de la recherche de l'utilisateur : 404: Utilisateur introuvable.
+2025-03-02 17:08:15,223 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:12:55,670 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: johndoe10903@example.com
+2025-03-02 17:13:14,019 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 17:13:14,020 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 17:13:14,507 - INFO - Nouvel utilisateur créé avec succès : s@example.com
+2025-03-02 17:13:14,533 - INFO - Message envoyé à RabbitMQ pour activer l'email : s@example.com
+2025-03-02 17:13:42,323 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:13:42,327 - ERROR - Erreur lors de la recherche de l'utilisateur : (psycopg2.ProgrammingError) can't adapt type 'builtin_function_or_method'
+[SQL: SELECT users.id AS users_id, users.first_name AS users_first_name, users.last_name AS users_last_name, users.email AS users_email, users.phone_number AS users_phone_number, users.date_birth AS users_date_birth, users.password_hash AS users_password_hash, users.password_salt AS users_password_salt, users.user_role AS users_user_role, users.is_email_verified AS users_is_email_verified, users.is_phone_verified AS users_is_phone_verified, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': <built-in function id>, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-02 17:14:02,977 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-28' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000001368F319CA0>()]>>
+2025-03-02 17:14:02,979 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 17:17:30,842 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:17:30,856 - ERROR - Erreur lors de la recherche de l'utilisateur : (psycopg2.ProgrammingError) can't adapt type 'builtin_function_or_method'
+[SQL: SELECT users.id AS users_id, users.first_name AS users_first_name, users.last_name AS users_last_name, users.email AS users_email, users.phone_number AS users_phone_number, users.date_birth AS users_date_birth, users.password_hash AS users_password_hash, users.password_salt AS users_password_salt, users.user_role AS users_user_role, users.is_email_verified AS users_is_email_verified, users.is_phone_verified AS users_is_phone_verified, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': <built-in function id>, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-02 17:18:01,345 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:19:45,043 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:19:45,058 - ERROR - Erreur lors de la recherche de l'utilisateur : object User can't be used in 'await' expression
+2025-03-02 17:23:32,439 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:23:42,909 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 17:24:04 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 18:00:19,714 - INFO - Utilisateur mis à jour avec succès : johndoe13@example.com
+2025-03-02 18:01:03,645 - INFO - Utilisateur mis à jour avec succès : johndoe13@example.com
+2025-03-02 18:01:41,449 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:07:16,481 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:12:07,326 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:12:53,357 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:13:55,986 - INFO - Utilisateur mis à jour avec succès : johndoe13@example.com
+2025-03-02 18:14:43,013 - INFO - Utilisateur mis à jour avec succès : johndoe13@example.com
+2025-03-02 18:15:57,808 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:22:08,078 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'date_of_birth'
+2025-03-02 18:22:23,632 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'date_of_birth'
+2025-03-02 18:23:06,243 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 'UserUpdate' object has no attribute 'id'
+2025-03-02 18:23:41,812 - ERROR - Erreur lors de l'envoi du message RabbitMQ : Object of type UUID is not JSON serializable
+2025-03-02 18:23:41,822 - INFO - Utilisateur mis à jour avec succès : john.doe@example.com
+2025-03-02 18:24:45,466 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002AEFF90E8B0>()]>>
+2025-03-02 18:24:45,469 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:24:49,835 - INFO - Utilisateur mis à jour avec succès : john.doe@example.com
+2025-03-02 18:30:03,672 - INFO - Requête reçue pour récupérer les points de l'utilisateur avec l'email: 1d1b80bd-468f-4813-b014-2272bbcd8b0d
+2025-03-02 18:35:17,905 - INFO - Utilisateur mis à jour avec succès : john.doe@example.com
+2025-03-02 18:35:26,036 - INFO - Utilisateur mis à jour avec succès : john.doe@example.com
+2025-03-02 18:35:30,302 - INFO - Utilisateur mis à jour avec succès : john.doe@example.com
+2025-03-02 18:37:56,120 - INFO - Utilisateur mis à jour avec succès : johndoe1@example.com
+2025-03-02 18:38:10,063 - INFO - Utilisateur mis à jour avec succès : johndoe1@example.com
+2025-03-02 18:39:36,412 - INFO - Utilisateur mis à jour avec succès : johndoe1@example.com
+2025-03-02 18:40:01,025 - INFO - Message envoyé à RabbitMQ pour activer l'email : john.doe@example.com
+2025-03-02 18:40:01,036 - ERROR - Erreur lors de la mise à jour de l'utilisateur : (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(john.doe@example.com) already exists.
+
+[SQL: UPDATE users SET first_name=%(first_name)s, last_name=%(last_name)s, email=%(email)s, phone_number=%(phone_number)s, date_birth=%(date_birth)s, is_email_verified=%(is_email_verified)s, is_phone_verified=%(is_phone_verified)s, updated_at=%(updated_at)s WHERE users.id = %(users_id)s::UUID]
+[parameters: {'first_name': 'Jon', 'last_name': 'Doe', 'email': 'john.doe@example.com', 'phone_number': '+1234567890', 'date_birth': datetime.datetime(1990, 1, 1, 0, 0), 'is_email_verified': False, 'is_phone_verified': False, 'updated_at': '2025-03-02 18:40', 'users_id': UUID('e363c6f0-8835-4992-9746-e69423b3b0b6')}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-02 18:42:21,422 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000021B511BDC40>()]>>
+2025-03-02 18:42:21,424 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:42:28,031 - ERROR - Erreur lors de la mise à jour de l'utilisateur : 400: Cet email est déjà utilisé.
+2025-03-02 18:44:51,239 - INFO - Message envoyé à RabbitMQ pour activer l'email : john.doe@example.com
+2025-03-02 18:44:51,245 - ERROR - Erreur lors de la mise à jour de l'utilisateur : (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(john.doe@example.com) already exists.
+
+[SQL: UPDATE users SET first_name=%(first_name)s, last_name=%(last_name)s, email=%(email)s, phone_number=%(phone_number)s, date_birth=%(date_birth)s, is_email_verified=%(is_email_verified)s, is_phone_verified=%(is_phone_verified)s, updated_at=%(updated_at)s WHERE users.id = %(users_id)s::UUID]
+[parameters: {'first_name': 'Jon', 'last_name': 'Doe', 'email': 'john.doe@example.com', 'phone_number': '+1234567890', 'date_birth': datetime.datetime(1990, 1, 1, 0, 0), 'is_email_verified': False, 'is_phone_verified': False, 'updated_at': datetime.datetime(2025, 3, 2, 23, 44, 51, 208953), 'users_id': UUID('e363c6f0-8835-4992-9746-e69423b3b0b6')}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-02 18:46:24,255 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:24,256 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 18:46:24,751 - INFO - Nouvel utilisateur créé avec succès : johndoe1@example.com
+2025-03-02 18:46:24,768 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe1@example.com
+2025-03-02 18:46:29,647 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:30,152 - INFO - Nouvel utilisateur créé avec succès : johndoe11@example.com
+2025-03-02 18:46:30,171 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe11@example.com
+2025-03-02 18:46:35,531 - ERROR - Un utilisateur avec l'email johndoe11@example.com existe déjà.
+2025-03-02 18:46:40,453 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:40,876 - INFO - Nouvel utilisateur créé avec succès : johndoe111@example.com
+2025-03-02 18:46:40,899 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe111@example.com
+2025-03-02 18:46:47,118 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:47,642 - INFO - Nouvel utilisateur créé avec succès : johndoe0@example.com
+2025-03-02 18:46:47,655 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe0@example.com
+2025-03-02 18:46:51,773 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:52,292 - INFO - Nouvel utilisateur créé avec succès : johndoe01@example.com
+2025-03-02 18:46:52,363 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe01@example.com
+2025-03-02 18:46:56,358 - INFO - Création d'un nouvel utilisateur...
+2025-03-02 18:46:56,959 - INFO - Nouvel utilisateur créé avec succès : johndoe001@example.com
+2025-03-02 18:46:56,980 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe001@example.com
+2025-03-02 18:47:16,121 - INFO - Utilisateur mis à jour avec succès : johndoe001@example.com
+2025-03-02 18:47:35,868 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe11@example.com
+2025-03-02 18:47:35,925 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:47:42,011 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:48:08,262 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe1q@example.com
+2025-03-02 18:48:08,268 - INFO - Utilisateur mis à jour avec succès : johndoe1q@example.com
+2025-03-02 18:49:35,387 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:49:41,348 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:49:46,066 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe1@example.com
+2025-03-02 18:49:46,071 - INFO - Utilisateur mis à jour avec succès : johndoe1@example.com
+2025-03-02 18:49:52,196 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe11@example.com
+2025-03-02 18:49:52,201 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:49:59,813 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:50:53,386 - INFO - Utilisateur mis à jour avec succès : johndoe11@example.com
+2025-03-02 18:51:19,759 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe10@example.com
+2025-03-02 18:51:19,765 - INFO - Utilisateur mis à jour avec succès : johndoe10@example.com
+2025-03-02 18:52:20,946 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:20,960 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:20,969 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:20,981 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:20,993 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,002 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,035 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,046 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,063 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,074 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,102 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,110 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-02 18:52:21,124 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-291' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727B3AC0>()]>>
+2025-03-02 18:52:21,126 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-292' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154728061C0>()]>>
+2025-03-02 18:52:21,138 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-295' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727D1DF0>()]>>
+2025-03-02 18:52:21,141 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-296' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000015472760D60>()]>>
+2025-03-02 18:52:21,143 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-297' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727CD220>()]>>
+2025-03-02 18:52:21,148 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-300' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727D12E0>()]>>
+2025-03-02 18:52:21,151 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-301' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727D1E50>()]>>
+2025-03-02 18:52:21,153 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-302' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727D12B0>()]>>
+2025-03-02 18:52:21,155 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-303' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727F1100>()]>>
+2025-03-02 18:52:21,157 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-304' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727F11C0>()]>>
+2025-03-02 18:52:21,158 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-306' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727F1AF0>()]>>
+2025-03-02 18:52:21,162 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-310' coro=<Connection._on_reader_done.<locals>.close_writer_task() running at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:554> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x00000154727F16A0>()]>>
+2025-03-02 18:55:57,593 - INFO - Utilisateur supprimé avec succès : johndoe10@example.com
+2025-03-02 18:56:32,385 - ERROR - Utilisateur introuvable avec l'id bcfc48cd-b066-4414-a6d5-8d5bb26caf39
+2025-03-02 18:56:32,387 - ERROR - Erreur lors de la suppression de l'utilisateur : 404: Utilisateur introuvable.
+2025-03-02 18:57:00,384 - INFO - Utilisateur supprimé avec succès : johndoe111@example.com

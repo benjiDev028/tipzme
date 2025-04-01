@@ -1,0 +1,1057 @@
+2025-03-08 20:27:07,972 - ERROR - Utilisateur introuvable avec l'email benjaminilunga011@gmail.com
+2025-03-08 20:27:07,977 - ERROR - Erreur lors de la recherche de l'utilisateur : 404: Utilisateur introuvable.
+2025-03-08 20:32:01,224 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 90763
+2025-03-08 20:32:01,232 - ERROR - Erreur lors de la sauvegarde du code pour johndoe0@example.com: execute() takes from 2 to 3 positional arguments but 4 were given
+2025-03-08 20:34:32,749 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 28851
+2025-03-08 20:34:32,753 - ERROR - Erreur lors de la sauvegarde du code pour johndoe0@example.com: execute() takes from 2 to 3 positional arguments but 4 were given
+2025-03-08 20:34:43,183 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 92475
+2025-03-08 20:34:43,186 - ERROR - Erreur lors de la sauvegarde du code pour johndoe0@example.com: local variable 'user_code' referenced before assignment
+2025-03-08 20:36:12,982 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 20586
+2025-03-08 20:36:12,987 - INFO - Code 20586 sauvegardé pour johndoe0@example.com
+2025-03-08 20:46:31,518 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 32678
+2025-03-08 20:46:31,525 - INFO - Code 32678 sauvegardé pour johndoe0@example.com
+2025-03-08 21:04:47,875 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:05:08,239 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 41192
+2025-03-08 21:05:08,245 - INFO - Code 41192 sauvegardé pour johndoe0@example.com
+2025-03-08 21:05:28,819 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:06:16,785 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:06:40,527 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:08:10,924 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 65063
+2025-03-08 21:08:10,931 - INFO - Code 65063 sauvegardé pour johndoe0@example.com
+2025-03-08 21:08:36,619 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:09:08,112 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 83375
+2025-03-08 21:09:08,136 - INFO - Code 83375 sauvegardé pour johndoe0@example.com
+2025-03-08 21:12:10,522 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 73596
+2025-03-08 21:12:10,527 - INFO - Code 73596 sauvegardé pour johndoe0@example.com
+2025-03-08 21:15:06,752 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 16846
+2025-03-08 21:15:06,758 - INFO - Code 16846 sauvegardé pour johndoe0@example.com
+2025-03-08 21:17:14,876 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 97314
+2025-03-08 21:17:14,893 - INFO - Code 97314 sauvegardé pour johndoe0@example.com
+2025-03-08 21:19:00,864 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 37897
+2025-03-08 21:19:00,874 - INFO - Code 37897 sauvegardé pour johndoe0@example.com
+2025-03-08 21:21:00,345 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 52644
+2025-03-08 21:21:00,349 - ERROR - Erreur lors de la sauvegarde du code pour johndoe0@example.com: execute() takes from 2 to 3 positional arguments but 4 were given
+2025-03-08 21:22:14,600 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 16239
+2025-03-08 21:22:14,611 - INFO - Code 16239 sauvegardé pour johndoe0@example.com
+2025-03-08 21:22:55,094 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 78072
+2025-03-08 21:22:55,120 - INFO - Code 78072 sauvegardé pour johndoe0@example.com
+2025-03-08 21:25:31,480 - ERROR - Erreur lors de la vérification du code pour johndoe0@example.com: 'UserCode' object is not subscriptable
+2025-03-08 21:27:38,888 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 64090
+2025-03-08 21:27:38,907 - INFO - Code 64090 sauvegardé pour johndoe0@example.com
+2025-03-08 21:27:57,866 - ERROR - Erreur lors de la vérification du code pour johndoe0@example.com: 'UserCode' object is not subscriptable
+2025-03-08 21:29:39,017 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 21:29:39,018 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 21:29:45,182 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 21:29:45,183 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 21:29:47,363 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 21:29:47,364 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 21:30:16,526 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 21:30:16,527 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 21:30:19,740 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:30:36,881 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 81218
+2025-03-08 21:30:36,893 - INFO - Code 81218 sauvegardé pour johndoe0@example.com
+2025-03-08 21:30:55,554 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 21:30:55,555 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 21:30:57,317 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code non trouvé.
+2025-03-08 21:41:21,100 - INFO - Mot de passe réinitialisé avec succès pour: johndoe0@example.com
+2025-03-08 22:06:06,357 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:06:06,393 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:06:07,019 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:06:07,042 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:06:07,917 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:06:07,921 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:06:08,854 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:06:42,262 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:06:42,287 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:06:42,856 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:07:18,296 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:07:18,818 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:07:44,339 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 80346
+2025-03-08 22:07:44,356 - INFO - Code 80346 sauvegardé pour johndoe0@example.com
+2025-03-08 22:08:08,905 - INFO - Code de réinitialisation envoyé à johndoe0@example.com : 30531
+2025-03-08 22:08:08,928 - INFO - Code 30531 sauvegardé pour johndoe0@example.com
+2025-03-08 22:08:16,208 - WARNING - Vérification du code pour johndoe0@example.com échouée: Code invalide.
+2025-03-08 22:08:29,794 - INFO - Code validé avec succès pour johndoe0@example.com
+2025-03-08 22:08:29,795 - INFO - Code de réinitialisation vérifié avec succès pour: johndoe0@example.com
+2025-03-08 22:08:56,822 - INFO - Mot de passe réinitialisé avec succès pour: johndoe0@example.com
+2025-03-08 22:09:24,488 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:09:24,925 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    raise HTTPException(status_code=400, detail="Information invalide")  # Gère l'erreur si non valide
+fastapi.exceptions.HTTPException: 400: Information invalide
+2025-03-08 22:12:13,746 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:12:13,774 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    if not verify_password(password, user["password_hash"], user["password_salt"]):
+TypeError: 'User' object is not subscriptable
+2025-03-08 22:12:56,388 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:12:56,420 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 28, in Login_user
+    if not verify_password(password, User["password_hash"], User["password_salt"]):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 261, in inner
+    return func(*args, **kwds)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 897, in __class_getitem__
+    _check_generic(cls, params)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\typing_extensions.py", line 2881, in _check_generic
+    raise TypeError(f"{cls} is not a generic class")
+TypeError: <class 'sqlalchemy.orm.decl_api.DeclarativeMeta'> is not a generic class
+2025-03-08 22:14:27,710 - INFO - Tentative de connexion pour l'email: johndoe0@example.com
+2025-03-08 22:14:27,732 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:14:28,240 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-08 22:17:33,528 - ERROR - Un utilisateur avec l'email johndoe0@example.com existe déjà.
+2025-03-08 22:17:59,346 - INFO - Création d'un nouvel utilisateur...
+2025-03-08 22:17:59,765 - INFO - Nouvel utilisateur créé avec succès : j@gmail.com
+2025-03-08 22:17:59,798 - INFO - Message envoyé à RabbitMQ pour activer l'email : j@gmail.com
+2025-03-08 22:18:12,295 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:18:12,778 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 36, in Login_user
+    "role": user.role
+AttributeError: 'User' object has no attribute 'role'
+2025-03-08 22:20:24,568 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-29' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000021934052F70>()]>>
+2025-03-08 22:20:24,604 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-08 22:20:47,082 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:20:47,112 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:20:47,722 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 36, in Login_user
+    "role": user.role
+AttributeError: 'User' object has no attribute 'role'
+2025-03-08 22:21:16,658 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:21:16,687 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:21:17,304 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 36, in Login_user
+    "role": user.role
+AttributeError: 'User' object has no attribute 'role'
+2025-03-08 22:21:40,847 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:21:40,868 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:21:41,437 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 48, in Login_user
+    if not verify_password(password, User["password_hash"], User["password_salt"]):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 261, in inner
+    return func(*args, **kwds)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 897, in __class_getitem__
+    _check_generic(cls, params)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\typing_extensions.py", line 2881, in _check_generic
+    raise TypeError(f"{cls} is not a generic class")
+TypeError: <class 'sqlalchemy.orm.decl_api.DeclarativeMeta'> is not a generic class
+2025-03-08 22:22:55,580 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:22:56,339 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 48, in Login_user
+    if not verify_password(password, user.password_hash, user.password_salt):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 261, in inner
+    return func(*args, **kwds)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\typing.py", line 897, in __class_getitem__
+    _check_generic(cls, params)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\typing_extensions.py", line 2881, in _check_generic
+    raise TypeError(f"{cls} is not a generic class")
+TypeError: <class 'sqlalchemy.orm.decl_api.DeclarativeMeta'> is not a generic class
+2025-03-08 22:23:06,375 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:23:06,402 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:23:07,392 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 54, in Login_user
+    "sub": user["email"],
+TypeError: 'User' object is not subscriptable
+2025-03-08 22:24:11,551 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:24:11,575 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:24:12,695 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 56, in Login_user
+    "role": user["user_role"]
+TypeError: 'User' object is not subscriptable
+2025-03-08 22:24:30,016 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:24:30,039 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:24:31,617 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 72, in Login_user
+    "role": user.role  # Récupère correctement le rôle de l'utilisateur
+AttributeError: 'User' object has no attribute 'role'
+2025-03-08 22:25:04,878 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:25:04,903 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:25:06,439 - INFO - Connexion réussie pour l'utilisateur: j@gmail.com
+2025-03-08 22:25:31,011 - INFO - Code de réinitialisation envoyé à j@gmail.com : 96567
+2025-03-08 22:25:31,028 - INFO - Code 96567 sauvegardé pour j@gmail.com
+2025-03-08 22:25:55,021 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-08 22:25:55,022 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-08 22:26:25,914 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-08 22:26:45,609 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:26:46,078 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-08 22:27:11,056 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:27:11,495 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-08 22:27:19,069 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:27:20,828 - INFO - Connexion réussie pour l'utilisateur: j@gmail.com
+2025-03-08 22:29:19,222 - INFO - Code de réinitialisation envoyé à j@gmail.com : 40906
+2025-03-08 22:29:19,240 - INFO - Code 40906 sauvegardé pour j@gmail.com
+2025-03-08 22:29:44,189 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-08 22:29:44,190 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-08 22:29:57,307 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-08 22:30:13,257 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-08 22:30:13,267 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-08 22:30:13,822 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 14:28:12,747 - ERROR - Un utilisateur avec l'email j@gmail.com existe déjà.
+2025-03-09 14:28:21,052 - INFO - Création d'un nouvel utilisateur...
+2025-03-09 14:28:22,917 - INFO - Nouvel utilisateur créé avec succès : j@0gmail.com
+2025-03-09 14:28:23,110 - INFO - Message envoyé à RabbitMQ pour activer l'email : j@0gmail.com
+2025-03-09 14:32:16,304 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-57' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002107D975CA0>()]>>
+2025-03-09 14:32:16,320 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-09 14:33:14,149 - ERROR - Utilisateur introuvable avec l'email j@.com
+2025-03-09 14:33:14,155 - ERROR - Erreur lors de la recherche de l'utilisateur : 404: Utilisateur introuvable.
+2025-03-09 14:34:02,235 - INFO - Code de réinitialisation envoyé à j@gmail.com : 20792
+2025-03-09 14:34:02,912 - INFO - Code 20792 sauvegardé pour j@gmail.com
+2025-03-09 14:34:29,525 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 14:34:29,532 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 14:34:52,020 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 14:35:12,979 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 14:35:12,986 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 14:35:13,736 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 14:40:43,924 - INFO - Code de réinitialisation envoyé à j@gmail.com : 66561
+2025-03-09 14:40:43,967 - INFO - Code 66561 sauvegardé pour j@gmail.com
+2025-03-09 14:41:07,855 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 14:41:07,855 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 14:41:18,585 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 14:41:22,011 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 14:41:42,059 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 14:41:42,066 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 14:41:42,681 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 14:52:06,646 - INFO - Code de réinitialisation envoyé à j@gmail.com : 75818
+2025-03-09 14:52:06,852 - INFO - Code 75818 sauvegardé pour j@gmail.com
+2025-03-09 14:54:15,520 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 14:54:15,521 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 14:54:15,587 - INFO - Code de réinitialisation envoyé à j@gmail.com : 68387
+2025-03-09 14:54:15,613 - INFO - Code 68387 sauvegardé pour j@gmail.com
+2025-03-09 14:54:22,781 - WARNING - Vérification du code pour j@gmail.com échouée: Code invalide.
+2025-03-09 14:54:40,852 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 14:54:40,923 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 14:54:55,554 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 14:55:20,476 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 14:55:20,482 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 14:55:21,220 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 15:00:48,802 - INFO - Code de réinitialisation envoyé à j@gmail.com : 65912
+2025-03-09 15:00:48,822 - INFO - Code 65912 sauvegardé pour j@gmail.com
+2025-03-09 15:01:16,086 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 15:01:16,086 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 15:01:49,671 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 15:02:05,510 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:02:05,513 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 15:02:06,144 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 15:06:57,788 - INFO - Code de réinitialisation envoyé à j@gmail.com : 63161
+2025-03-09 15:06:57,813 - INFO - Code 63161 sauvegardé pour j@gmail.com
+2025-03-09 15:07:16,967 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 15:07:17,001 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 15:07:44,158 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 15:07:59,821 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:07:59,827 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 15:08:00,369 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 15:17:03,855 - INFO - Code de réinitialisation envoyé à j@gmail.com : 85955
+2025-03-09 15:17:03,890 - INFO - Code 85955 sauvegardé pour j@gmail.com
+2025-03-09 15:17:21,430 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 15:17:21,459 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 15:17:38,091 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 15:17:56,183 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:17:56,187 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 15:17:56,730 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await Login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 30, in Login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect
+2025-03-09 15:19:29,762 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:19:29,789 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 15:19:30,399 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 27, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-09 15:19:31,315 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:19:31,824 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 27, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-09 15:19:55,995 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:19:56,732 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+ValueError: too many values to unpack (expected 2)
+2025-03-09 15:20:07,753 - INFO - Code de réinitialisation envoyé à j@gmail.com : 14885
+2025-03-09 15:20:07,776 - INFO - Code 14885 sauvegardé pour j@gmail.com
+2025-03-09 15:21:02,836 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 15:21:02,896 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 15:21:15,968 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 15:21:42,828 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:21:43,245 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 27, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-09 15:28:11,655 - INFO - Code de réinitialisation envoyé à j@gmail.com : 62814
+2025-03-09 15:28:11,705 - INFO - Code 62814 sauvegardé pour j@gmail.com
+2025-03-09 15:28:28,462 - INFO - Code validé avec succès pour j@gmail.com
+2025-03-09 15:28:28,463 - INFO - Code de réinitialisation vérifié avec succès pour: j@gmail.com
+2025-03-09 15:28:43,039 - INFO - Mot de passe réinitialisé avec succès pour: j@gmail.com
+2025-03-09 15:29:07,078 - INFO - Tentative de connexion pour l'email: j@gmail.com
+2025-03-09 15:29:07,084 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-09 15:29:07,548 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 29, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-10 16:50:45,895 - ERROR - Un utilisateur avec l'email johndoe0@example.com existe déjà.
+2025-03-10 16:50:55,753 - ERROR - Un utilisateur avec l'email johndoe01@example.com existe déjà.
+2025-03-10 16:51:03,494 - INFO - Création d'un nouvel utilisateur...
+2025-03-10 16:51:03,495 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-10 16:51:04,077 - INFO - Nouvel utilisateur créé avec succès : johndoe010jkj@example.com
+2025-03-10 16:51:04,128 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe010jkj@example.com
+2025-03-10 16:51:04,149 - INFO - Message envoyé à RabbitMQ pour PASSER ID   : johndoe010jkj@example.com
+2025-03-10 16:52:47,490 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-37' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002C88C33B9D0>()]>>
+2025-03-10 16:52:47,495 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-38' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002C88C0F99A0>()]>>
+2025-03-10 16:52:47,497 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-10 16:52:47,733 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-10 16:54:25,558 - ERROR - Un utilisateur avec l'email johndoe010jkj@example.com existe déjà.
+2025-03-10 16:54:28,161 - INFO - Création d'un nouvel utilisateur...
+2025-03-10 16:54:28,162 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-10 16:54:28,733 - ERROR - Erreur lors de la création de l'utilisateur : (builtins.TypeError) Not a boolean value: 'pending'
+[SQL: INSERT INTO users (id, first_name, last_name, email, phone_number, date_birth, password_hash, password_salt, user_role, is_email_verified, is_phone_verified, is_active, created_at, updated_at) VALUES (%(id)s::UUID, %(first_name)s, %(last_name)s, %(email)s, %(phone_number)s, %(date_birth)s, %(password_hash)s, %(password_salt)s, %(user_role)s, %(is_email_verified)s, %(is_phone_verified)s, %(is_active)s, %(created_at)s, %(updated_at)s)]
+[parameters: [{'password_hash': '$2b$12$M3QjxsKBIRCJIqAQZreaPOxhcsIxyNTz0fS7tenD.SNmgW5ulXtZW', 'first_name': 'yoyo', 'is_email_verified': False, 'updated_at': '202 ... (143 characters truncated) ... '2025-03-10 16:54', 'password_salt': '$2b$12$wlq9BE5w26nXlq5haPn0Bu', 'phone_number': '+33223456', 'is_active': 'pending', 'is_phone_verified': False}]]
+2025-03-10 16:55:32,679 - INFO - Création d'un nouvel utilisateur...
+2025-03-10 16:55:32,680 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-10 16:55:33,188 - INFO - Nouvel utilisateur créé avec succès : johndoe0101jkj@example.com
+2025-03-10 16:55:33,224 - INFO - Message envoyé à RabbitMQ pour activer l'email : johndoe0101jkj@example.com
+2025-03-10 16:55:33,254 - INFO - Message envoyé à RabbitMQ pour PASSER ID   : johndoe0101jkj@example.com
+2025-03-11 01:19:14,582 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x18a3d41eb30> was stuck. No frames were received in 183 seconds.
+2025-03-11 01:19:17,121 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x18a3d437ae0> was stuck. No frames were received in 183 seconds.
+2025-03-11 01:19:17,881 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-11 01:19:18,313 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-11 16:08:51,549 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x18a3d457a90> was stuck. No frames were received in 183 seconds.
+2025-03-11 16:08:51,662 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x18a3d4575e0> was stuck. No frames were received in 183 seconds.
+2025-03-11 16:08:51,766 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-11 16:08:56,332 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-22 19:28:34,057 - ERROR - Un utilisateur avec l'email johndoe0101jkj@example.com existe déjà.
+2025-03-22 19:28:40,114 - ERROR - Un utilisateur avec l'email johndoe010jkj@example.com existe déjà.
+2025-03-22 19:28:48,791 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:28:48,792 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:28:49,296 - INFO - Nouvel utilisateur créé avec succès : 12q@example.com
+2025-03-22 19:28:49,416 - INFO - Message envoyé à RabbitMQ pour activer l'email : 12q@example.com
+2025-03-22 19:28:49,438 - INFO - Message envoyé à RabbitMQ pour PASSER ID   : 12q@example.com
+2025-03-22 19:28:59,596 - INFO - Tentative de connexion pour l'email: 12q@example.com
+2025-03-22 19:29:00,048 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 35, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-22 19:29:29,116 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-38' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000023DA2ECAD00>()]>>
+2025-03-22 19:29:29,119 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-40' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x0000023DA3190250>()]>>
+2025-03-22 19:29:29,121 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-22 19:29:29,252 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-22 19:35:50,374 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:35:50,375 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:38:28,367 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:38:30,732 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:38:48,750 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:39:15,869 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:39:15,870 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:39:16,345 - ERROR - Erreur lors de la création de l'utilisateur : (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type boolean: "pending"
+LINE 1: ...eRPQh.We8.KEJa9PmoY7qRW', 'worker', false, false, 'pending',...
+                                                             ^
+
+[SQL: INSERT INTO users (id, first_name, last_name, email, phone_number, date_birth, password_hash, user_role, is_email_verified, is_phone_verified, is_active, created_at, updated_at) VALUES (%(id)s::UUID, %(first_name)s, %(last_name)s, %(email)s, %(phone_number)s, %(date_birth)s, %(password_hash)s, %(user_role)s, %(is_email_verified)s, %(is_phone_verified)s, %(is_active)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('e05f77c9-77ce-46eb-a204-3994c387f87b'), 'first_name': 'yoyo', 'last_name': 'yiyi', 'email': '1n2q@example.com', 'phone_number': '+33223456', 'date_birth': datetime.datetime(2000, 12, 12, 0, 0), 'password_hash': '$2b$12$gPvT3Aq1pYXN5kdi7rsbF.9Y2wBHxCeRPQh.We8.KEJa9PmoY7qRW', 'user_role': 'worker', 'is_email_verified': False, 'is_phone_verified': False, 'is_active': 'pending', 'created_at': '2025-03-22 19:39', 'updated_at': '2025-03-22 19:39'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-22 19:40:32,544 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:40:32,545 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:40:33,002 - ERROR - Erreur lors de la création de l'utilisateur : (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type boolean: "pending"
+LINE 1: ...bt8JyN9ApnUY.gsUeK0Qcc2', 'worker', false, false, 'pending',...
+                                                             ^
+
+[SQL: INSERT INTO users (id, first_name, last_name, email, phone_number, date_birth, password_hash, user_role, is_email_verified, is_phone_verified, is_active, created_at, updated_at) VALUES (%(id)s::UUID, %(first_name)s, %(last_name)s, %(email)s, %(phone_number)s, %(date_birth)s, %(password_hash)s, %(user_role)s, %(is_email_verified)s, %(is_phone_verified)s, %(is_active)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'id': UUID('9a54105b-4ef5-4f3a-a5ad-5a3c2da97f76'), 'first_name': 'yoyo', 'last_name': 'yiyi', 'email': '1n2qo@example.com', 'phone_number': '+33223456', 'date_birth': datetime.datetime(2000, 12, 12, 0, 0), 'password_hash': '$2b$12$08kap0qOA.oo9h5QV4xHJul/NVF7dnbt8JyN9ApnUY.gsUeK0Qcc2', 'user_role': 'worker', 'is_email_verified': False, 'is_phone_verified': False, 'is_active': 'pending', 'created_at': '2025-03-22 19:40', 'updated_at': '2025-03-22 19:40'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-22 19:43:03,800 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:43:03,802 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:43:04,272 - INFO - Nouvel utilisateur créé avec succès : 1n2qo@example.com
+2025-03-22 19:43:04,297 - INFO - Message envoyé à RabbitMQ pour activer l'email : 1n2qo@example.com
+2025-03-22 19:43:04,316 - INFO - Message envoyé à RabbitMQ pour PASSER ID   : 1n2qo@example.com
+2025-03-22 19:43:18,754 - INFO - Tentative de connexion pour l'email: 1n2qo@example.com
+2025-03-22 19:43:19,187 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+TypeError: object tuple can't be used in 'await' expression
+2025-03-22 19:44:49,206 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-38' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002593B187490>()]>>
+2025-03-22 19:44:49,207 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-40' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000002593B27D8B0>()]>>
+2025-03-22 19:44:49,209 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-22 19:44:49,224 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-22 19:45:08,362 - INFO - Création d'un nouvel utilisateur...
+2025-03-22 19:45:08,368 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 19:45:08,991 - INFO - Nouvel utilisateur créé avec succès : 1n2qoq@example.com
+2025-03-22 19:45:09,016 - INFO - Message envoyé à RabbitMQ pour activer l'email : 1n2qoq@example.com
+2025-03-22 19:45:09,037 - INFO - Message envoyé à RabbitMQ pour PASSER ID   : 1n2qoq@example.com
+2025-03-22 19:45:18,504 - INFO - Tentative de connexion pour l'email: 1n2qoq@example.com
+2025-03-22 19:45:18,939 - INFO - Connexion réussie pour l'utilisateur: 1n2qoq@example.com
+2025-03-22 19:52:46,565 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f0de6d0> was stuck. No frames were received in 183 seconds.
+2025-03-22 19:52:46,580 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1066d0> was stuck. No frames were received in 183 seconds.
+2025-03-22 19:52:46,585 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-22 19:52:46,587 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 03:32:24,506 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f119180> was stuck. No frames were received in 183 seconds.
+2025-03-23 03:32:24,533 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f0f5f90> was stuck. No frames were received in 183 seconds.
+2025-03-23 03:32:24,537 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 03:32:24,590 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 12:51:07,550 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f127c70> was stuck. No frames were received in 183 seconds.
+2025-03-23 12:51:10,281 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f145540> was stuck. No frames were received in 183 seconds.
+2025-03-23 12:51:10,606 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 12:51:11,023 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 14:05:50,513 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f145270> was stuck. No frames were received in 183 seconds.
+2025-03-23 14:05:50,571 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f14a360> was stuck. No frames were received in 183 seconds.
+2025-03-23 14:05:50,591 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 14:05:50,732 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 16:48:49,519 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f106c20> was stuck. No frames were received in 183 seconds.
+2025-03-23 16:48:51,747 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f14a680> was stuck. No frames were received in 183 seconds.
+2025-03-23 16:48:51,754 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 16:48:52,075 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 20:04:10,954 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1449a0> was stuck. No frames were received in 183 seconds.
+2025-03-23 20:04:11,552 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f145590> was stuck. No frames were received in 183 seconds.
+2025-03-23 20:04:12,074 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-23 20:04:12,652 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 02:51:07,506 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1449f0> was stuck. No frames were received in 183 seconds.
+2025-03-24 02:51:07,661 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f158860> was stuck. No frames were received in 183 seconds.
+2025-03-24 02:51:07,712 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 02:51:07,778 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 05:39:34,529 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f144810> was stuck. No frames were received in 183 seconds.
+2025-03-24 05:39:34,697 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f144950> was stuck. No frames were received in 183 seconds.
+2025-03-24 05:39:34,803 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 05:39:35,166 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 09:12:11,522 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f15ff90> was stuck. No frames were received in 183 seconds.
+2025-03-24 09:12:12,111 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f15fc70> was stuck. No frames were received in 183 seconds.
+2025-03-24 09:12:12,363 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 09:12:13,070 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 16:24:06,545 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f158ae0> was stuck. No frames were received in 183 seconds.
+2025-03-24 16:24:09,828 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f163db0> was stuck. No frames were received in 183 seconds.
+2025-03-24 16:24:10,606 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 16:24:11,569 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 21:00:23,514 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1630e0> was stuck. No frames were received in 183 seconds.
+2025-03-24 21:00:23,678 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f119040> was stuck. No frames were received in 183 seconds.
+2025-03-24 21:00:23,794 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 21:00:24,172 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 22:51:59,566 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f168e50> was stuck. No frames were received in 183 seconds.
+2025-03-24 22:52:00,265 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f168e00> was stuck. No frames were received in 183 seconds.
+2025-03-24 22:52:00,518 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-24 22:52:01,562 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 05:47:34,183 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f175450> was stuck. No frames were received in 183 seconds.
+2025-03-25 05:47:34,512 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f158db0> was stuck. No frames were received in 183 seconds.
+2025-03-25 05:47:34,959 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 05:47:35,495 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 16:18:15,578 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f16f090> was stuck. No frames were received in 183 seconds.
+2025-03-25 16:18:16,129 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900eea9f40> was stuck. No frames were received in 183 seconds.
+2025-03-25 16:18:16,133 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 16:18:16,407 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 21:22:47,531 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f163bd0> was stuck. No frames were received in 183 seconds.
+2025-03-25 21:22:50,363 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f16f540> was stuck. No frames were received in 183 seconds.
+2025-03-25 21:22:50,366 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 21:22:50,370 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 21:58:26,519 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f175b80> was stuck. No frames were received in 183 seconds.
+2025-03-25 21:58:26,598 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f175400> was stuck. No frames were received in 183 seconds.
+2025-03-25 21:58:26,631 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 21:58:26,693 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 23:09:39,551 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f158540> was stuck. No frames were received in 183 seconds.
+2025-03-25 23:09:39,874 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f144e00> was stuck. No frames were received in 183 seconds.
+2025-03-25 23:09:39,877 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-25 23:09:40,259 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 05:17:17,063 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1682c0> was stuck. No frames were received in 183 seconds.
+2025-03-26 05:17:17,302 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f144810> was stuck. No frames were received in 183 seconds.
+2025-03-26 05:17:17,382 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 05:17:17,396 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 05:55:55,540 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f16f590> was stuck. No frames were received in 183 seconds.
+2025-03-26 05:55:55,926 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f137b80> was stuck. No frames were received in 183 seconds.
+2025-03-26 05:55:56,003 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 05:55:56,027 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 09:32:00,526 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f137db0> was stuck. No frames were received in 183 seconds.
+2025-03-26 09:32:00,562 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f15fa40> was stuck. No frames were received in 183 seconds.
+2025-03-26 09:32:00,565 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-26 09:32:00,767 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 15:53:58,620 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f145d10> was stuck. No frames were received in 183 seconds.
+2025-03-27 15:53:58,988 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f1684a0> was stuck. No frames were received in 183 seconds.
+2025-03-27 15:54:01,437 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 15:54:01,792 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 20:37:03,554 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f14a180> was stuck. No frames were received in 183 seconds.
+2025-03-27 20:37:05,882 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f15f180> was stuck. No frames were received in 183 seconds.
+2025-03-27 20:37:06,241 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 20:37:06,799 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 22:55:10,538 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f15fb80> was stuck. No frames were received in 183 seconds.
+2025-03-27 22:55:13,644 - WARNING - Server connection <Connection: "amqp://guest:******@localhost:5672/" at 0x1900f145ef0> was stuck. No frames were received in 183 seconds.
+2025-03-27 22:55:15,261 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-27 22:55:16,318 - INFO - Connection to amqp://guest:******@localhost:5672/ closed. Reconnecting after 5 seconds.
+2025-03-28 00:45:35,549 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7305' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000001900EEC4E80>()]>>
+2025-03-28 00:45:35,559 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7306' coro=<Connection._on_reader_done.<locals>.close_writer_task() done, defined at C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py:546> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\Admin\.conda\envs\monenv\lib\asyncio\tasks.py:902, <TaskWakeupMethWrapper object at 0x000001900EDF95E0>()]>>
+2025-03-28 00:45:35,561 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-28 00:45:35,715 - ERROR - Future exception was never retrieved
+future: <Future finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\Admin\.conda\envs\monenv\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\aiormq\connection.py", line 551, in close_writer_task
+    exc = task.exception()
+asyncio.exceptions.CancelledError
+2025-03-28 00:46:01,378 - INFO - Tentative de connexion pour l'email: 1n2qoq@example.com
+2025-03-28 00:46:01,416 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-28 00:46:01,901 - INFO - Connexion réussie pour l'utilisateur: 1n2qoq@example.com
+2025-03-28 00:46:08,946 - INFO - Tentative de connexion pour l'email: 1n2qoq@example.com
+2025-03-28 00:46:09,348 - ERROR - Erreur lors de la tentative de connexion
+Traceback (most recent call last):
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\api\endpoints\auth_route.py", line 50, in login_endpoint
+    token, refresh_token = await login_user(db, email, password)
+  File "D:\CORE TECH\tips\back-end\Tipzme-user\app\services\auth_service.py", line 35, in login_user
+    raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+fastapi.exceptions.HTTPException: 400: Mot de passe incorrect.
+2025-03-28 01:02:51,842 - INFO - Tentative de connexion pour l'email: 1n2qoq@example.com
+2025-03-28 01:02:51,859 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\monenv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-28 01:02:52,275 - INFO - Connexion réussie pour l'utilisateur: 1n2qoq@example.com
+2025-03-28 01:03:13,907 - INFO - Tentative de connexion pour l'email: 1n2qoq@example.com
+2025-03-28 01:03:14,288 - INFO - Connexion réussie pour l'utilisateur: 1n2qoq@example.com
