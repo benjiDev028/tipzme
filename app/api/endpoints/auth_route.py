@@ -42,39 +42,24 @@ async def login_endpoint(user: UserLogin, db: Session = Depends(get_db)):
     """
     Connecter un utilisateur existant.
     """
-    try:
-        email = user.email
-        password = user.password
-        logger.info(f"Tentative de connexion pour l'email: {email}")
+
+    email = user.email
+    password = user.password
+    logger.info(f"Tentative de connexion pour l'email: {email}")
         
-        token, refresh_token = await login_user(db, email, password)
-        if token == "Information Invalide":
-            logger.warning("Informations invalides pour l'utilisateur")
-            return "Information Invalide"
-        if not token:
-            logger.error("Email ou mot de passe invalide")
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid email or password",
-                headers={"WWW-Authenticate": "Bearer"},
-            )
+    token, refresh_token = await login_user(db, email, password)
         
-        user = await get_user_by_email(db, email)
+    user = await get_user_by_email(db, email)
         
         
-        logger.info(f"Connexion réussie pour l'utilisateur: {email}")
-        return {
+    logger.info(f"Connexion réussie pour l'utilisateur: {email}")
+    return {
             "access_token": token,
             "token_type": "bearer",
             "refresh_token": refresh_token,
          
         }
-    except Exception as e:
-        logger.exception("Erreur lors de la tentative de connexion")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Information Invalide"
-        )
+
 
 @router.post("/refresh-token", status_code=status.HTTP_200_OK)
 async def refresh_access_token(refresh_token: RefreshToken, db: asyncpg.Connection = Depends(get_db)):

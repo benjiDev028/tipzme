@@ -34,10 +34,6 @@ async def user_by_email(email: str, db: Session = Depends(get_db)):
     """
     logger.info(f"Requête reçue pour récupérer les points de l'utilisateur avec l'email: {email}")
     user = await get_user_by_email(db, email)
-    if not user:
-        logging.error(f"Utilisateur avec email {email} non trouvé.")
-        raise HTTPException(status_code=404, detail="Utilisateur non trouvé.")
-    
     return user
 
 
@@ -48,10 +44,6 @@ async def user_by_id(id: UUID, db: Session = Depends(get_db)):
     """
     logger.info(f"Requête reçue pour récupérer les points de l'utilisateur avec l'email: {id}")
     user = await get_user_by_id(db, id)
-    if not user:
-        logging.error(f"Utilisateur avec email {id} non trouvé.")
-        raise HTTPException(status_code=404, detail="Utilisateur non trouvé.")
-    
     return user
 
 @router.get("/users", response_model=List[UserResponseFind])

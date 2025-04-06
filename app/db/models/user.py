@@ -2,16 +2,12 @@ from sqlalchemy import (
     Column,
     Integer,
     String,
-    ForeignKey,
-    DateTime,
-    func,
-    Boolean,
-    Float,
-    Sequence,
-    event,
+    DateTime,   
+    Boolean
+   
 )
 from sqlalchemy.dialects.postgresql import UUID
-from sqlalchemy.orm import relationship, sessionmaker
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, inspect
 import uuid
