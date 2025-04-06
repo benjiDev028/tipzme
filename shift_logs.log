@@ -45,3 +45,83 @@ HINT:  You will need to rewrite or cast the expression.
 (Background on this error at: https://sqlalche.me/e/20/f405)
 2025-04-01 02:10:49,035 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-41d4-a716-446655440000') name_shift='Shift du matin' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
 2025-04-01 02:10:49,086 - INFO - Shift created with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
+2025-04-01 02:19:42,171 - INFO - Fetching shift with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
+2025-04-01 02:20:27,266 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-4178-a716-446655440000') name_shift='valet matin pres' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:20:27,282 - INFO - Shift created with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-01 02:20:33,607 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-4178-a716-446655440000') name_shift='valet midi pres' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:20:33,612 - INFO - Shift created with ID: 00ca9385-0cc8-48de-85d3-114bd692e75c
+2025-04-01 02:20:46,482 - INFO - Creating a new shift with data: creator_id=UUID('550e8400-e29b-4178-a716-446655440000') name_shift='fedex junior' date=datetime.date(2025, 4, 1) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0) status='active' created_at=datetime.datetime(2025, 4, 1, 12, 0) updated_at=datetime.datetime(2025, 4, 1, 12, 0)
+2025-04-01 02:20:46,489 - INFO - Shift created with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-01 02:20:55,868 - INFO - Fetching shift with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
+2025-04-01 02:27:50,954 - INFO - Fetching all shifts
+2025-04-01 02:27:50,966 - ERROR - No shifts found
+2025-04-01 02:27:59,873 - INFO - Fetching all shifts
+2025-04-01 02:27:59,875 - ERROR - No shifts found
+2025-04-01 02:28:16,410 - INFO - Fetching all shifts
+2025-04-01 02:35:09,834 - INFO - Fetching all shifts
+2025-04-02 11:53:49,758 - INFO - Fetching all shifts with status: status='active'
+2025-04-02 11:54:18,968 - INFO - Fetching all shifts with status: status='active'
+2025-04-02 11:56:57,265 - INFO - Fetching all shifts with status: status='active'
+2025-04-02 11:58:35,818 - INFO - Fetching all shifts with status: status='active'
+2025-04-02 12:01:58,245 - INFO - Fetching all shifts with status: status=active
+2025-04-02 12:01:58,263 - ERROR - No shifts found with status status=active
+2025-04-02 12:02:27,561 - INFO - Fetching all shifts with status: status='active'
+2025-04-02 12:02:27,565 - ERROR - No shifts found with status status='active'
+2025-04-02 12:04:12,240 - INFO - Fetching all shifts with status: active
+2025-04-02 12:05:47,996 - INFO - Fetching all shifts
+2025-04-02 12:11:16,311 - INFO - Updating shift with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-02 12:11:16,360 - INFO - Shift with ID a55415fb-15cc-43c7-a603-3f78e64f0dc2 updated
+2025-04-02 12:12:51,805 - INFO - Updating shift with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-02 12:12:51,826 - INFO - Shift with ID a55415fb-15cc-43c7-a603-3f78e64f0dc2 updated
+2025-04-02 12:16:30,813 - INFO - Updating shift with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-02 12:16:30,840 - INFO - Shift with ID a55415fb-15cc-43c7-a603-3f78e64f0dc2 updated
+2025-04-02 12:18:11,241 - INFO - Updating shift with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-02 12:18:11,265 - INFO - Shift with ID a55415fb-15cc-43c7-a603-3f78e64f0dc2 updated
+2025-04-02 12:18:31,844 - INFO - Updating shift with ID: a55415fb-15cc-43c7-a603-3f78e64f0dc2
+2025-04-02 12:18:31,851 - INFO - Shift with ID a55415fb-15cc-43c7-a603-3f78e64f0dc2 updated
+2025-04-02 12:19:07,653 - INFO - Fetching all shifts
+2025-04-02 12:19:07,656 - ERROR - No shifts found
+2025-04-02 12:19:29,923 - INFO - Fetching all shifts
+2025-04-02 12:25:56,505 - INFO - Fetching shift with ID: 550e8400-e29b-4178-a716-446655440000
+2025-04-02 12:25:56,523 - ERROR - Shift with ID 550e8400-e29b-4178-a716-446655440000 not found
+2025-04-02 12:26:19,897 - INFO - Fetching shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:26:23,645 - INFO - Fetching shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:26:25,084 - INFO - Fetching shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:26:26,204 - INFO - Fetching shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:27:43,950 - INFO - Deleting shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:28:09,697 - INFO - Deleting shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:28:47,490 - INFO - Deleting shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:28:47,506 - INFO - Shift with ID 541dc5c3-1c05-4875-a35b-5aa9ae40eab0 deleted
+2025-04-02 12:33:30,760 - INFO - Deleting shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:33:30,776 - ERROR - Shift with ID 541dc5c3-1c05-4875-a35b-5aa9ae40eab0 not found
+2025-04-02 12:33:41,308 - INFO - Deleting shift with ID: 541dc5c3-1c05-4875-a35b-5aa9ae40eab0
+2025-04-02 12:33:41,312 - ERROR - Shift with ID 541dc5c3-1c05-4875-a35b-5aa9ae40eab0 not found
+2025-04-02 12:33:48,182 - INFO - Deleting shift with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
+2025-04-02 12:33:48,194 - INFO - Shift with ID 18499f2e-ef05-490a-aa46-85e12cff85f3 deleted
+2025-04-02 12:33:50,589 - INFO - Deleting shift with ID: 18499f2e-ef05-490a-aa46-85e12cff85f3
+2025-04-02 12:33:50,592 - ERROR - Shift with ID 18499f2e-ef05-490a-aa46-85e12cff85f3 not found
+2025-04-02 13:25:28,886 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:27:43,196 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:27:46,505 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:27:53,721 - ERROR - Shift with ID 00ca9385-0cc8-48de-85d3-114bd692e71c not found
+2025-04-02 13:27:57,400 - ERROR - Shift with ID 00ca9385-0cc8-48de-85d3-114bd692e71c not found
+2025-04-02 13:29:19,944 - ERROR - Shift with ID 00ca9385-0cc8-48de-85d3-114bd692e71c not found
+2025-04-02 13:29:23,366 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:30:00,832 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:33:16,077 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:33:38,756 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 13:34:12,751 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e75c already exists
+2025-04-02 16:42:08,837 - ERROR - Invitation with ID 00ca9385-0cc8-48de-85d3-114bd692e751 not found
+2025-04-02 17:37:06,926 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='valet matin' date=datetime.date(2025, 12, 12) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
+2025-04-02 17:37:06,974 - INFO - Shift created with ID: aaaec859-82cd-40cd-b7bc-0f7953346e11
+2025-04-02 17:45:23,810 - ERROR - Shift with ID aaaec859-82cd-40cd-b7bc-0f7953346e12 not found
+2025-04-02 17:50:21,811 - ERROR - Invitation with ID aaaec859-82cd-40cd-b7bc-0f7953346e12 not found
+2025-04-02 17:50:32,833 - ERROR - Invitation with ID aaaec859-82cd-40cd-b7bc-0f7953346e11 not found
+2025-04-02 22:03:08,307 - ERROR - No invitations found for user with ID aaaec859-82cd-40cd-b7bc-0f7953346e11
+2025-04-02 23:01:00,603 - WARNING - Aucun shift actif trouvé pour user_id 00ca9385-0cc8-48de-85d3-114bd692e75c
+2025-04-02 23:01:19,646 - WARNING - Aucun shift actif trouvé pour user_id 00ca9385-0cc8-48de-85d3-114bd692e75c
+2025-04-02 23:01:56,710 - WARNING - Aucun shift actif trouvé pour user_id f91460fb-106e-4ee6-bbff-4bb934d2faa0
+2025-04-05 11:21:30,581 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 12, 12) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
+2025-04-05 11:21:58,241 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 12, 12) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
+2025-04-05 11:21:58,260 - INFO - Shift created with ID: d1afff10-cf4b-4e61-b4d9-8ce481d9f495
+2025-04-05 11:28:03,959 - ERROR - Invitation with ID d1afff10-cf4b-4e61-b4d9-8ce481d9f495 not found

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.db.database import Base, engine
 from app.api.shift_route import router 
+from app.api.shiftColleague_route import router as shift_router
 
 
 
@@ -22,3 +23,4 @@ app.add_middleware(
 
 # Enregistrement des routes
 app.include_router(router, prefix="/sh", tags=["shift"])
+app.include_router(shift_router, prefix="/shc", tags=["shiftColleague"])

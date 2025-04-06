@@ -16,14 +16,29 @@ class ShiftBase(BaseModel):
     created_at: datetime = Field(..., alias="created_at", description="Creation time of the shift")
     updated_at: datetime = Field(..., alias="updated_at", description="Last update time of the shift")
 
-class ShiftCreate(ShiftBase):
+class ShiftCreate(BaseModel):
     """Model for creating a new Shift"""
-    pass
+    creator_id: UUID 
+    name_shift: str 
+    date: Date 
+    start_time: time
+    end_time: time 
 
-class ShiftUpdate(ShiftBase):
+
+
+    
+
+class ShiftUpdate(BaseModel):
     """Model for updating an existing Shift"""
-    pass
+    name_shift: str
+    date: str
+    start_time: str
+    end_time: str
+    
 
+class ShiftStatusFind(BaseModel):
+    status:str
+    
 class ShiftResponse(BaseModel):
     id: str
     creator_id: str
