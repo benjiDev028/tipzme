@@ -125,3 +125,14 @@ HINT:  You will need to rewrite or cast the expression.
 2025-04-05 11:21:58,241 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 12, 12) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
 2025-04-05 11:21:58,260 - INFO - Shift created with ID: d1afff10-cf4b-4e61-b4d9-8ce481d9f495
 2025-04-05 11:28:03,959 - ERROR - Invitation with ID d1afff10-cf4b-4e61-b4d9-8ce481d9f495 not found
+2025-04-06 01:41:55,995 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 1, 12) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
+2025-04-06 01:42:27,378 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(8, 0) end_time=datetime.time(12, 0)
+2025-04-06 01:42:27,402 - INFO - Shift created with ID: 8cf899ee-8932-4fe8-b465-7c95c0753cc4
+2025-04-06 01:42:42,056 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(1, 0) end_time=datetime.time(12, 0)
+2025-04-06 01:42:52,325 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(1, 42) end_time=datetime.time(12, 0)
+2025-04-06 01:42:57,889 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(1, 43) end_time=datetime.time(12, 0)
+2025-04-06 01:42:57,895 - INFO - Shift created with ID: 8404657a-001a-434f-9a0f-ba08938b066d
+2025-04-06 02:26:12,776 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(2, 25) end_time=datetime.time(2, 30)
+2025-04-06 02:26:24,302 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(2, 30) end_time=datetime.time(2, 30)
+2025-04-06 02:26:32,473 - INFO - Creating a new shift with data: creator_id=UUID('913a11d5-9ec4-4e8c-aa3c-607bb5c5f3fb') name_shift='accepte' date=datetime.date(2025, 4, 6) start_time=datetime.time(2, 30) end_time=datetime.time(2, 33)
+2025-04-06 02:26:32,494 - INFO - Shift created with ID: 1f9e3e3c-181f-4954-bbad-9a6a66c7fe73

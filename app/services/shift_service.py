@@ -3,8 +3,9 @@ from sqlalchemy.orm import Session
 from app.db.models.shift import Shift
 from app.db.models.shift_colleagues import ShiftColleague
 from fastapi import HTTPException
-from app.db.schemas.shift import ShiftCreate, ShiftResponse, ShiftUpdate, ShiftStatusFind
-from datetime import datetime
+from app.db.schemas.shift import ShiftCreate, ShiftResponse, ShiftUpdate,ShiftComplete
+from datetime import datetime, timedelta
+from app.db.models.shift_history import ShiftHistory
 import uuid
 from typing import List
 
@@ -180,3 +181,66 @@ async def get_shift_by_creator_id(db: Session, creator_id: uuid) -> List[ShiftRe
         raise HTTPException(status_code=404, detail="No shifts found")
     return [ShiftResponse.from_orm(shift) for shift in Shifts]
 
+async def complete_shift(db: Session, shiftC: ShiftComplete) -> ShiftResponse:
+    # Récupérer le shift
+    shift = db.query(Shift).filter(Shift.id == shiftC.shift_id).first()
+    if not shift:
+        raise HTTPException(status_code=404, detail="Shift not found")
+    
+    # Récupérer l'heure actuelle
+    now = datetime.now()
+
+    # Convertir shift.end_time (qui est de type datetime.time) en datetime
+    shift_end_datetime = datetime.combine(now.date(), shift.end_time)
+
+    # Vérifier si on est trop tôt
+    if now < (shift_end_datetime - timedelta(minutes=15)):
+        raise HTTPException(status_code=400, detail="Trop tôt pour compléter ce shift")
+
+    # Mettre à jour le statut du shift
+    shift.status = "completed"
+    shift.updated_at = now
+
+    # Créer un enregistrement d'historique
+    history = ShiftHistory(
+        shift_id=shift.id,
+        utilisateur_id=shiftC.user_id,
+        action="manual_complete",
+        date_action=now,
+        description="Complété manuellement par le créateur"
+    )
+
+    # Ajouter l'historique dans la base de données
+    db.add(history)
+    db.commit()
+
+    # Rafraîchir l'instance de shift
+    db.refresh(shift)
+
+    # Retourner la réponse
+    return ShiftResponse.from_orm(shift)
+
+async def cancel_shift(db: Session, shift_id: uuid.UUID, user_id: uuid.UUID) -> ShiftResponse:
+    shift = db.query(Shift).filter(Shift.id == shift_id).first()
+    if not shift:
+        raise HTTPException(status_code=404, detail="Shift not found")
+
+    now = datetime.now()
+    if now >= shift.end_time:
+        raise HTTPException(status_code=400, detail="Trop tard pour annuler ce shift")
+
+    shift.status = "cancelled"
+    shift.updated_at = now
+
+    history = ShiftHistory(
+        shift_id=shift.id,
+        utilisateur_id=user_id,
+        action="manual_cancel",
+        date_action=now,
+        description="Annulé par le créateur avant la fin"
+    )
+
+    db.add(history)
+    db.commit()
+    db.refresh(shift)
+    return ShiftResponse.from_orm(shift)

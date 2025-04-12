@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException, Depends,FastAPI
 from sqlalchemy.orm import Session
 from app.db.database import get_db
 import logging
-from app.db.schemas.shift import ShiftCreate, ShiftResponse, ShiftUpdate, ShiftStatusFind
-from app.services.shift_service import create_shift, get_shift_by_id, get_all_shifts_user, get_all_shifts, get_all_shifts_by_status,update_shift,delete_shift,get_shift_with_accepted_colleagues
+from app.db.schemas.shift import ShiftCreate, ShiftResponse, ShiftUpdate, ShiftComplete
+from app.services.shift_service import create_shift, get_shift_by_id, get_all_shifts_user, get_all_shifts, get_all_shifts_by_status,update_shift,delete_shift,get_shift_with_accepted_colleagues, complete_shift, cancel_shift
 from typing import List
 
 router = APIRouter()
@@ -81,3 +81,11 @@ async def get_shift_accepted_colleagues_api(shift_id: str, db: Session = Depends
     """
     shift_data = await get_shift_with_accepted_colleagues(db, shift_id)
     return shift_data
+
+@router.put("/complete")
+async def complete_shift_endpoint(shiftC:ShiftComplete, db: Session = Depends(get_db)):
+    return await complete_shift(db, shiftC)
+
+@router.put("/cancel")
+async def cancel_shift_endpoint(shift_id: str, user_id: str, db: Session = Depends(get_db)):
+    return await cancel_shift(db, shift_id, user_id)

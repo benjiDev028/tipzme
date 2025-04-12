@@ -36,6 +36,11 @@ class ShiftUpdate(BaseModel):
     end_time: str
     
 
+class ShiftComplete(BaseModel):
+    """Model for retrieving a Shift"""
+    shift_id: UUID
+    user_id: UUID
+
 class ShiftStatusFind(BaseModel):
     status:str
     
