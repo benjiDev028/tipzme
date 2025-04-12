@@ -26,16 +26,20 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 async def login_user(db: Session, email: str, password: str):
     user = db.query(User).filter(User.email == email).one_or_none()
     if not user:
-        raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+        raise HTTPException(status_code=400, detail="Mot de passe ou Identifiant incorrect.")
     
     # # Vérification du mot de passe
     # if not verify_password(password, user.password_hash, user.password_salt):
     #     raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
     if not pwd_context.verify(password, user.password_hash):
-        raise HTTPException(status_code=400, detail="Mot de passe incorrect.")
+        raise HTTPException(status_code=400, detail="Mot de passe ou Identifiant incorrect.")
     
     # Génération du token après la validation
-    token = create_access_token(data={"sub": email})
+    token = create_access_token({
+    "sub": email,
+    "user_id": str(user.id),
+    "userRole": user.user_role
+})
     refresh_token = create_refresh_token(data={"sub": email})
     
     return token, refresh_token

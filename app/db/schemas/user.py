@@ -1,5 +1,5 @@
 from pydantic import BaseModel, EmailStr, Field
-from datetime import datetime
+from datetime import datetime,date 
 from uuid import UUID
 from typing import Optional
 
@@ -22,7 +22,7 @@ class UserBase(BaseModel):
     last_name: str = Field(..., max_length=100)
     email: EmailStr
     phone_number: Optional[str] = Field(None, max_length=15)  # Numéro de téléphone optionnel
-    date_birth: Optional[datetime]  # Date de naissance au format datetime
+    date_birth: Optional[date]  # Date de naissance au format datetime
 
     class Config:
         orm_mode = True  # Permet de manipuler des objets ORM directement
@@ -104,8 +104,6 @@ class UserResponseFind(UserBase):
     role: str = "worker"  # Par défaut rôle "worker", peut être modifié
     created_at: datetime
     updated_at: datetime
-    pointevents: Optional[int] = 0
-    pointstudios: Optional[int] = 0
 
     class Config:
         orm_mode = True
@@ -119,8 +117,7 @@ class UserInternal(UserBase):
     is_active: bool = True
     created_at: datetime
     updated_at: datetime
-    pointevents: Optional[int] = 0
-    pointstudios: Optional[int] = 0
+ 
 
     class Config:
         orm_mode = True

@@ -2,18 +2,21 @@ from sqlalchemy import (
     Column,
     Integer,
     String,
-    DateTime,   
-    Boolean
+   
+    DateTime,
+    
+    Boolean,
    
 )
 from sqlalchemy.dialects.postgresql import UUID
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker,relationship
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, inspect
 import uuid
-from datetime import datetime
+from datetime import datetime,date
 from sqlalchemy.sql import func
 from dotenv import load_dotenv
+
 import os
 
 # Charger les variables d'environnement
@@ -50,6 +53,7 @@ class User(Base):
     is_active = Column(String, default=False)  
     created_at = Column(DateTime, default=datetime.now().replace(microsecond=0).strftime("%Y-%m-%d %H:%M"))
     updated_at = Column(DateTime, default=datetime.now().replace(microsecond=0).strftime("%Y-%m-%d %H:%M"))
+
 
 class UserCode(Base):
     __tablename__ = 'user_codes'

@@ -42,23 +42,40 @@ async def login_endpoint(user: UserLogin, db: Session = Depends(get_db)):
     """
     Connecter un utilisateur existant.
     """
-
-    email = user.email
-    password = user.password
-    logger.info(f"Tentative de connexion pour l'email: {email}")
+    try:
+        email = user.email
+        password = user.password
+        logger.info(f"Tentative de connexion pour l'email: {email}")
         
-    token, refresh_token = await login_user(db, email, password)
+        token, refresh_token = await login_user(db, email, password)
+        if token == "Information Invalide":
+            logger.warning("Informations invalides pour l'utilisateur")
+            return "Information Invalide"
+        if not token:
+            logger.error("Email ou mot de passe invalide")
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid email or password",
+                headers={"WWW-Authenticate": "Bearer"},
+            )
         
-    user = await get_user_by_email(db, email)
+        user = await get_user_by_email(db, email)
         
         
-    logger.info(f"Connexion réussie pour l'utilisateur: {email}")
-    return {
+        logger.info(f"Connexion réussie pour l'utilisateur: {email}")
+        return {
             "access_token": token,
+            "user_id": str(user.id),
             "token_type": "bearer",
             "refresh_token": refresh_token,
          
         }
+    except Exception as e:
+        logger.exception("Erreur lors de la tentative de connexion")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Information Invalide"
+        )
 
 
 @router.post("/refresh-token", status_code=status.HTTP_200_OK)
@@ -99,3 +116,26 @@ async def refresh_access_token(refresh_token: RefreshToken, db: asyncpg.Connecti
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="An error occurred while refreshing the token"
         )
+
+# @router.post("/login", status_code=status.HTTP_200_OK)
+# async def login_endpoint(user: UserLogin, db: Session = Depends(get_db)):
+#     """
+#     Connecter un utilisateur existant.
+#     """
+
+#     email = user.email
+#     password = user.password
+#     logger.info(f"Tentative de connexion pour l'email: {email}")
+        
+#     token, refresh_token = await login_user(db, email, password)
+        
+#     user = await get_user_by_email(db, email)
+        
+        
+#     logger.info(f"Connexion réussie pour l'utilisateur: {email}")
+#     return {
+#             "access_token": token,
+#             "token_type": "bearer",
+#             "refresh_token": refresh_token,
+         
+#     }
