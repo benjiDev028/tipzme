@@ -1,0 +1,176 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#f8fafc',
+    },
+    keyboardView: {
+      flex: 1,
+    },
+    header: {
+      paddingTop: isIOS ? 50 : 10,
+      paddingBottom: 10,
+      backgroundColor: '#3366ff',
+      paddingHorizontal: 20,
+    },
+    headerText: {
+      color: 'white',
+      fontSize: 22,
+      fontWeight: '600',
+      marginTop: 10,
+    },
+    backButton: {
+      position: 'absolute',
+      top: isIOS ? 50 : 10,
+      left: 15,
+      zIndex: 10,
+    },
+    progressContainer: {
+      marginTop: 15,
+      height: 22,
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    progressBackground: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      height: 6,
+      backgroundColor: 'rgba(255,255,255,0.3)',
+      borderRadius: 3,
+    },
+    progressFill: {
+      position: 'absolute',
+      left: 0,
+      height: 6,
+      backgroundColor: 'white',
+      borderRadius: 3,
+    },
+    progressText: {
+      color: 'white',
+      fontSize: 12,
+      fontWeight: '600',
+      position: 'absolute',
+      right: 0,
+    },
+    content: {
+      padding: 20,
+      paddingBottom: 40,
+    },
+    searchContainer: {
+      marginBottom: 10,
+      borderRadius: 15,
+      backgroundColor: 'white',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowRadius: 8,
+      elevation: 5,
+      zIndex: 100,
+    },
+    searchInput: {
+      height: 55,
+      paddingLeft: 45,
+      paddingRight: 40,
+      fontSize: 16,
+      borderRadius: 15,
+    },
+    searchIcon: {
+      position: 'absolute',
+      left: 15,
+      top: 17,
+    },
+    clearButton: {
+      position: 'absolute',
+      right: 15,
+      top: 16,
+      zIndex: 10,
+    },
+    loadingContainer: {
+      position: 'absolute',
+      right: 50,
+      top: 17,
+      zIndex: 10,
+    },
+    predictionsContainer: {
+      maxHeight: 250, // Hauteur maximale pour la liste des prédictions
+      backgroundColor: 'white',
+      borderBottomLeftRadius: 15,
+      borderBottomRightRadius: 15,
+      overflow: 'hidden',
+      zIndex: 99,
+    },
+    predictionItem: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingVertical: 12,
+      paddingHorizontal: 15,
+      borderBottomWidth: 1,
+      borderBottomColor: '#f1f5f9',
+    },
+    locationIcon: {
+      marginRight: 10,
+    },
+    predictionText: {
+      fontSize: 14,
+      color: '#334155',
+      flex: 1,
+    },
+    separator: {
+      fontSize: 18,
+      fontWeight: '600',
+      color: '#334155',
+      marginTop: 25,
+      marginBottom: 15,
+    },
+    inputGroup: {
+      marginBottom: 15,
+    },
+    inputLabel: {
+      fontSize: 14,
+      fontWeight: '500',
+      color: '#64748b',
+      marginBottom: 6,
+      paddingLeft: 2,
+    },
+    input: {
+      backgroundColor: 'white',
+      height: 50,
+      borderRadius: 10,
+      paddingHorizontal: 15,
+      fontSize: 16,
+      color: '#334155',
+      borderWidth: 1,
+      borderColor: '#e2e8f0',
+    },
+    rowContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
+    halfWidth: {
+      width: '48%',
+    },
+    button: {
+      backgroundColor: '#3366ff',
+      height: 55,
+      borderRadius: 27.5,
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginTop: 20,
+      shadowColor: '#3366ff',
+      shadowOffset: { width: 0, height: 5 },
+      shadowOpacity: 0.3,
+      shadowRadius: 10,
+      elevation: 5,
+    },
+    buttonText: {
+      color: 'white',
+      fontSize: 18,
+      fontWeight: '600',
+    },
+    buttonIcon: {
+      marginLeft: 8,
+    },
+  });
+export default styles;  
